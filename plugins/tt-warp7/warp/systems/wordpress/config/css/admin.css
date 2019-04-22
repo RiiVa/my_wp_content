@@ -1,0 +1,125 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Component:        WordPress
+ * Description:      Defines WordPress specific styles for the Warp admininistration
+ ========================================================================== */
+
+
+/* Layout
+ ========================================================================== */
+
+#warp { margin: 20px 20px 0 0; }
+
+.tm-form-save { padding: 25px 0;}
+
+
+/* Customizer
+ ========================================================================== */
+
+.cm-open #wpadminbar { display: none; }
+
+
+/* Modules
+ ========================================================================== */
+
+/*
+ * Assign select
+ */
+
+.tm-assign-select {
+    height: 200px !important;
+    max-width: 200px !important;
+    padding: 0;
+}
+.tm-assign-select optgroup { margin: 8px 0; }
+.tm-assign-select option { margin: 2px 0; }
+
+/*
+ * Widget Shortcode
+ */
+#widgets .uk-icon-code {
+    color: #00a0d2;
+    cursor: pointer;
+}
+
+/*
+ * Widget assignments
+ */
+#tm-assign-modal {
+    z-index: 999999;
+    white-space: normal;
+}
+
+#tm-assign-modal .uk-panel-box.tt-green {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+#tm-assign-modal .uk-panel-box.tt-red {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.tt-button-group .uk-button-danger,
+.tt-button-group .uk-button-success,
+.tt-button-group .uk-button-primary {
+    background: #f7f7f7;
+    color: #666;
+    background-image: -webkit-linear-gradient(top,#fff,#eee);
+    background-image: linear-gradient(to bottom,#fff,#eee);
+    border: 1px solid rgba(0,0,0,.2);
+    border-bottom-color: rgba(0,0,0,.3);
+    text-shadow: 0 1px 0 #fff;
+}
+
+.tt-button-group .uk-button-danger:hover,
+.tt-button-group .uk-button-success:hover,
+.tt-button-group .uk-button-primary:hover {
+    border: 1px solid rgba(0,0,0,.3) !important;
+}
+
+.tt-button-group .uk-button-danger.uk-active {
+    background-color: #d32c46;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top,#ee465a,#c11a39);
+    background-image: linear-gradient(to bottom,#ee465a,#c11a39);
+    border-color: rgba(0,0,0,.2);
+    border-bottom-color: rgba(0,0,0,.4);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.tt-button-group .uk-button-success.uk-active {
+    background-color: #82bb42;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top,#9fd256,#6fac34);
+    background-image: linear-gradient(to bottom,#9fd256,#6fac34);
+    border-color: rgba(0,0,0,.2);
+    border-bottom-color: rgba(0,0,0,.4);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.tt-button-group .uk-button-primary.uk-active {
+    background-color: #009dd8;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top,#00b4f5,#008dc5);
+    background-image: linear-gradient(to bottom,#00b4f5,#008dc5);
+    border-color: rgba(0,0,0,.2);
+    border-bottom-color: rgba(0,0,0,.4);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.period_picker_box {
+    z-index: 999999 !important;
+}
+
+#tm-assign-modal .tt-url-field {
+    width: 100%;
+    height: 150px;
+}
+
+#tm-assign-modal .uk-modal-header .uk-modal-close {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}

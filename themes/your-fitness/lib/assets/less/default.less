@@ -1,0 +1,43 @@
+/* Header
+ ========================================================================== */
+
+.tm-header {
+    border-bottom: 1px solid @global-border;
+}
+
+
+/* Main
+ ========================================================================== */
+
+.tm-main {
+    background-color: #FAFAFA;
+}
+
+
+/* Footer
+ ========================================================================== */
+
+.tm-footer {
+    border-top: 1px solid @global-border;
+}
+
+article.sticky header h2 {
+    position: relative;
+    padding-left: 20px;
+}
+
+article.sticky header h2:before {
+    content: "\f08d";
+    font-family: FontAwesome;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+article.post-password-required input[type="password"] + input[type="submit"] {
+    padding: 10px 10px;
+    border-radius: 4px;
+}

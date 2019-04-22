@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>Your Fitness</name>
+	<version>1.0.4</version>
+	<creationDate> 04 January 2017</creationDate>
+	<author>Torbara</author>
+	<authorEmail>support@torbara.com</authorEmail>
+	<authorUrl>http://torbara.com</authorUrl>
+    <copyright>Copyright (C) Torbara</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<description>YourFitness is a creative, modern and responsive theme designed mainly for Sport Clubs, Health Clubs, Gyms, Fitness Centers, Personal Trainers and other sport and health related clubs and it is suitable for any kind of sport activity websites.</description>
+    <positions>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position settings="assignment">logo</position>
+        <position settings="assignment">logo-small</position>
+        <position settings="title assignment">menu</position>
+        <position settings="title assignment">toolbar-l</position>
+        <position settings="title assignment">toolbar-r</position>
+        <position settings="assignment">headerbar</position>
+        <position settings="assignment">breadcrumbs</position>
+        <position settings="assignment">search</position>
+        <position settings="assignment">breadcrumbs-yourfitness</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>top-c</position>
+        <position>top-d</position>
+        <position>top-e</position>
+        <position>top-f</position>
+        <position>top-g</position>
+        <position>top-h</position>
+        <position>top-i</position>
+        <position>top-j</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position settings="assignment">footer</position>
+        <position settings="title assignment">offcanvas</position>
+        <position settings="">debug</position>
+    </positions>
+</theme>

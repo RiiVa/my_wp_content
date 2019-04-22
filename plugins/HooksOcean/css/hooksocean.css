@@ -1,0 +1,16 @@
+/*
+ * Plugin Name: HooksOcean
+ * Author: Nemirovskiy Vitaliy
+ * Author URI: http://themeforest.net/user/torbara/portfolio/?ref=torbara
+ * Author e-mail: nemirovskiyvitaliy@gmail.com
+ * Version: 1.0.0
+ */
+
+
+
+
+.widget_hooksocean {
+    width: 0px;
+    height: 0px;
+    display: none;
+}

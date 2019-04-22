@@ -1,0 +1,124 @@
+/**
+ * Name          ANG Mega Slideshow
+ * @encoding     UTF-8
+ * @version      1.0
+ * @copyright    Copyright (C) 2015 Torbara (http://torbara.com). All rights reserved.
+ * @license      GNU General Public License version 2 or later, see http://www.gnu.org/licenses/gpl-2.0.html
+ * @author       Alexandr Glovatskyy
+ */
+
+.akslider-module .uk-dotnav > li > a {
+    width: 55px;
+    height: 55px;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    position: relative;
+    border: none;
+    box-sizing: border-box;
+    /*border: 3px solid rgba(255, 255, 255, 0.6);*/
+/* Uncomment this if you want gray effect for thumbs */
+/*    filter: gray;  IE6-9 
+    -webkit-filter: grayscale(100%);  Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+
+.akslider-module .uk-dotnav > li:hover > a {
+    opacity: 0.9;
+/* Uncomment this if you want gray effect for thumbs */
+/*    filter: none;  IE6-9 
+    -webkit-filter: grayscale(0%);*/
+}
+
+.akslider-module .uk-dotnav > li.uk-active > a {
+    opacity: 1;
+    box-shadow: 0px 0px 30px 0px #6AA0F1 inset;
+    /*border: 3px solid rgba(80, 173, 226, 0.6);*/
+/* Uncomment this if you want gray effect for thumbs */
+/*    filter: none;  IE6-9 
+    -webkit-filter: grayscale(0%);*/
+}
+
+.akslider-module .uk-dotnav.ang-squarenav > * > *,
+.akslider-module .uk-dotnav.ang-dashednav > * > *{
+    border-radius: 0;
+}
+
+/*square nav*/
+
+.akslider-module .uk-dotnav.ang-squarenav > li > a{
+    width: 70px;
+    height: 45px;
+    border:1px solid rgba(106, 160, 241, 0);
+    transition: all 0.3s ease 0s; 
+}
+.akslider-module .uk-dotnav.ang-squarenav > li:hover > a {
+    border-color: rgba(106, 160, 241, 1);
+}
+.akslider-module .uk-dotnav.ang-squarenav > li.uk-active > a {
+    border:1px solid rgba(106, 160, 241, 1);
+}
+
+ /*dashed nav*/
+ 
+.uk-dotnav.ang-dashednav{
+    overflow-x: hidden;
+    bottom: 50%;
+    margin-top: 0;
+    margin-bottom: -30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.uk-dotnav.ang-dashednav::after {
+    color: #fff;
+    content: "";
+    background-color: #b32727;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    left: 25%;
+    top: 50%;
+    transform: translateY(50%);
+}
+.uk-dotnav.ang-dashednav  > li{
+    padding-right:15px;
+    margin:0;
+}
+.uk-dotnav.ang-dashednav  > li:last-child{
+    padding-right:0;
+}
+.uk-dotnav.ang-dashednav > li > a{
+    width: 35px;
+    height: 4px;
+    border:none;
+    transition: all 0.2s ease 0s; 
+    box-shadow: 0 0 30px 0 #333333 inset;
+}
+.uk-dotnav.ang-dashednav > li:hover > a {
+    /*border-color: #b32727;*/
+    box-shadow: 0 0 30px 0 #b32727 inset;
+}
+.uk-dotnav.ang-dashednav > li.uk-active > a {
+    border:none;
+    box-shadow: 0 0 30px 0 #b32727 inset;
+}
+
+
+.akslider-module iframe {
+    pointer-events: none !important;
+}
+.akslider-module .uk-dotnav{
+    display:block;
+    text-align: center;
+}
+.akslider-module .uk-dotnav > li{
+    float:none;
+    display:inline-block;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+/* make fixed background for slides */
+.ang-fixed-slide-bg > .uk-cover-background{
+    background-attachment: fixed;
+}

@@ -1,0 +1,55 @@
+// Copyright (C) Your Fitness GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+//
+// Component: Icon
+//
+// ========================================================================
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/../@{icon-font-path}/fontawesome-webfont.woff2") format('woff2'),
+  url("/../@{icon-font-path}/fontawesome-webfont.woff") format("woff"),
+  url("/../@{icon-font-path}/fontawesome-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Variables
+// ========================================================================
+
+@icon-hover-color:                              @global-muted-color;
+@icon-hover-hover-color:                        @global-color;
+
+@icon-button-height:                            @icon-button-width;
+@icon-button-font-size:                         round((@icon-button-width * 0.5));
+@icon-button-color:                             @global-color;
+
+@icon-button-hover-color:                       @global-color;
+
+@icon-button-active-color:                      @global-color;
+
+
+// Modifier: `uk-icon-hover`
+// ========================================================================
+
+.hook-icon-hover() {}
+
+.hook-icon-hover-hover() {}
+
+
+// Modifier: `uk-icon-button`
+// ========================================================================
+
+.hook-icon-button() {}
+
+// Hover
+.hook-icon-button-hover() {}
+
+// Active
+.hook-icon-button-active() {}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-icon-misc() {}
